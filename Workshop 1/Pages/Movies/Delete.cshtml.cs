@@ -20,7 +20,7 @@ namespace Workshop_1.Pages.Movies
         }
 
         [BindProperty]
-        public Movies Movies { get; set; } = default!;
+        public Models.Movies Movies { get; set; } = default!;
 
         public async Task<IActionResult> OnGetAsync(int? id)
         {

@@ -19,7 +19,7 @@ namespace Workshop_1.Pages.Movies
             _context = context;
         }
 
-        public Movies Movies { get; set; } = default!;
+        public Models.Movies Movies { get; set; } = default!;
 
         public async Task<IActionResult> OnGetAsync(int? id)
         {

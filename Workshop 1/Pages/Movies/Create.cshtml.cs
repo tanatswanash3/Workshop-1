@@ -25,7 +25,7 @@ namespace Workshop_1.Pages.Movies
         }
 
         [BindProperty]
-        public Movies Movies { get; set; } = default!;
+        public Models.Movies Movies { get; set; } = default!;
 
         // To protect from overposting attacks, see https://aka.ms/RazorPagesCRUD
         public async Task<IActionResult> OnPostAsync()
